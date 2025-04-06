@@ -1,0 +1,16 @@
+-- AlterTable
+ALTER TABLE "properties" ADD COLUMN     "address" TEXT,
+ADD COLUMN     "architect_consultant" TEXT,
+ADD COLUMN     "concrete_grade_required" TEXT,
+ADD COLUMN     "construction_phase" TEXT,
+ADD COLUMN     "construction_start_end_date" TEXT,
+ADD COLUMN     "contractor" TEXT,
+ADD COLUMN     "floors" INTEGER,
+ADD COLUMN     "issuing_authority" TEXT,
+ADD COLUMN     "promoter" TEXT,
+ADD COLUMN     "property_height" INTEGER,
+ADD COLUMN     "property_type" TEXT,
+ADD COLUMN     "soil_type" TEXT,
+ADD COLUMN     "tednder_details" TEXT,
+ADD COLUMN     "tender_status" TEXT,
+ADD COLUMN     "total_construction_area" TEXT;
